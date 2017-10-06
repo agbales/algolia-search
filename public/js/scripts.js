@@ -9,7 +9,6 @@ index.setSettings({
 });
 
 var search = instantsearch({
-  // Replace with your own values
   appId: '8NVJERMPU5',
   apiKey: '986a4ac652f7701fc86db95ae11ae55c', // search only API key, no ADMIN key
   indexName: 'getstarted_actors',
