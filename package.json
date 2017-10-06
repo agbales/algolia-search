@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "algoliasearch": "^3.24.5",
+    "bootstrap": "^3.3.7",
     "express": "^4.16.1"
   }
 }

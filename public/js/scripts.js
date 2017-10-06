@@ -28,6 +28,10 @@ search.addWidget(
     templates: {
       item: document.getElementById('hit-template').innerHTML,
       empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
+    },
+    cssClasses: {
+      root: 'row',
+      item: 'col-lg-3 col-md-4 col-sm-6'
     }
   })
 );
