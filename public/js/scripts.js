@@ -24,7 +24,7 @@ search.addWidget(
 search.addWidget(
   instantsearch.widgets.hits({
     container: '#hits',
-    hitsPerPage: 10,
+    hitsPerPage: 12,
     templates: {
       item: document.getElementById('hit-template').innerHTML,
       empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
@@ -33,6 +33,12 @@ search.addWidget(
       root: 'row',
       item: 'col-lg-3 col-md-4 col-sm-6'
     }
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.pagination({
+    container: '#pagination'
   })
 );
 
